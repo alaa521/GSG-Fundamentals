@@ -1,0 +1,43 @@
+
+
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 20px;
+}
+section{
+    width: 1300px;
+    height: 470px;
+    padding: 30px;
+    margin-top: 30px;
+}
+.one{
+    background-color: #DFE6E9;
+}
+.two{
+    background-color: #30336B;  
+}
+img{
+    width: 600px;
+    height: 250px;
+    margin-left: 35px;
+}
+h2:hover{
+    color: pink;
+}
+.one p::first-letter{
+    color: goldenrod;
+   background-color: black;
+   font-size: 35px;
+}
+
+.two p::first-letter{
+   background-color: white;
+   font-size: 35px;
+
+}
+p::after{
+    content: "   read more>>";
+    color: blue;
+}
