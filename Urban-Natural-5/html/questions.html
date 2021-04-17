@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header class="questions-header">
+            <ol>
+                <li>Info
+                    <span></span>
+                </li>
+                <li>Questions
+                    <span></span>
+                </li>
+                <li>Book</li>
+            </ol>          
+        </header>
+        
+        <section class="questions-container">
+            <div class="questions-title">
+                <p>Before your visit</p>
+            </div>
+            <div>
+                <ol>
+                    <li>
+                        <label for="question1">Choose your location</label><br>
+                        <select name="question1" id="question1" size="3">
+                            <option value="None" id="none">None</option>
+                            <option value="4 miles to New York, NY">4 miles to New York, NY</option>
+                            <option value="5 miles to Newark, NJ">5 miles to Newark, NJ</option>
+                            <option value="78 miles to Philadelphia, PA">78 miles to Philadelphia, PA</option>
+                            <option value="166 miles to Baltimore, MD">166 miles to Baltimore, MD</option>
+                            <option value="194 miles to Boston, MA">194 miles to Boston, MA</option>
+                            <option value="200 miles to Washington, DC">200 miles to Washington, DC</option>
+                            <option value="250 miles to Rochester, NY">250 miles to Rochester, NY</option>  
+                        </select>
+                    </li>
+                    <li>
+                        <label for="question2">What do you prefer for your visit to be?</label><br>
+                        <select name="question2" id="question2" size="3"> 
+                            <option value="None">None</option>
+                            <option value="In person visit">In person visit</option>
+                            <option value="Virtual visit">Virtual visit</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="question3">What are you intersted in viewing today?</label><br>
+                        <form action="#">
+                            <input type="checkbox" id="op1" name="options" value="None">
+                            <label for="op1">None</label><br>
+                            <input type="checkbox" id="op2" name="options" value="Bedroom">
+                            <label for="op2">Bedroom</label><br>
+                            <input type="checkbox" id="op3" name="options" value="Dining">
+                            <label for="op13">Dining</label><br>
+                            <input type="checkbox" id="op4" name="options" value="Living">
+                            <label for="op4">Living</label><br>
+                            <input type="checkbox" id="op5" name="options" value="Office">
+                            <label for="op5">Office</label><br>
+                            <input type="checkbox" id="op6" name="options" value="Kids & Baby">
+                            <label for="op6">Kids & Baby</label><br>
+                        </form>
+                        
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <section class="questions-buttons">
+            <a href="info.html"><button id="back-button">Back</button></a>
+            <a href="book.html"><button id="next-button">Next</button></a>
+        </section>
+    </main>
+    
+</body>
+</html>

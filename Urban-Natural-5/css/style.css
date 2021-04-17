@@ -1,0 +1,800 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* landing page start */
+.main-Start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    width: 375px;
+}
+.logo-img{
+    height: 139px;
+    width: 161px;
+    margin: 96px 107px 15px 107px; 
+}
+.header-Start{
+    width: 307px;
+    height: 53px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    margin: 1px 43px 31px 39px;
+    font-size: 46px;
+    text-align: center;
+}
+.p-Start{
+    width: 329px;
+    height: 58px;
+    font-weight: 300;
+    font-size: 23px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin: 0px 3px 0px 29px;
+}
+.buttonStart {
+    width: 260px;
+    height: 54px;
+    background-color: #90B27B;
+    margin: 73px 46px 11px 69px;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+  }
+  /* landing page end */
+
+
+
+  /* landing2 start */
+  .landing2-container{
+    Width:375px;
+    Height:667px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing2-img{
+    Width:101px;
+    Height:87px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:78px 50px 5px 0;
+}
+.landing2-img img{
+    width: 100%;
+}
+.landing2-paragraphs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing2-paragraph1{
+    width: 285px;
+    height: 70px;
+    font-family:Quicksand;
+    font-style: normal;
+    font-weight:bold;
+    font-size:24px;
+    line-height:30px;
+    color: #221F1F;
+    text-align: center;
+    letter-spacing:-0.04em;
+    color: #333333;
+    margin: 0 0 5px;
+}
+.landing2-paragraph2{
+    width: 270px;
+    height: 45px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin: 0 0 50px;
+}
+.landing2-list ol{
+    counter-reset: li;
+    list-style: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.landing2-list li {
+    position: relative;   
+    padding: 16px 40px;
+    display: flex;
+}
+.landing2-list li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: #90B27A;
+    border-radius: 50%;
+    position: absolute;      
+    left: 8px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing2-list span{
+    position: absolute;
+    left: 20px;
+    top: 43px;
+    height: 25px;
+    border-left:1px solid rgba(0, 0, 0, 0.3);
+}
+.landing2-container button{
+    width:88px;
+    height:38px;
+    background-color:#90B27A;
+    border:#90B27A;
+    border-radius:4px;
+    font-family:Quicksand;
+    font-style:normal;
+    font-weight:normal;
+    color: #FFFEFE;
+    font-size:20px;
+    text-transform:uppercase;
+    text-align: center;
+    letter-spacing: -0.04em;
+    margin: 45px 0 0 0;
+} 
+
+
+ /* landing 2 end */
+
+
+/* the style for contact info page start */
+/*page header*/
+.info-header{
+    width: 375.81px;
+    height: 50px;
+    margin: 40px 0 10px;
+    border-radius: 2px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info-header ol{
+    counter-reset: li;
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.info-header li {
+    position: relative;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.38);
+}
+.info-header li:first-child{
+    color: black;
+}
+.info-header li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 50%;
+    position: absolute;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-header li:first-child::before{
+    background-color: #90B27A;
+}
+.info-header li:first-child span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 72px;
+}
+.info-header li:nth-child(2) span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 112px;
+}
+
+/* page form */
+.contact-info{
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+
+.contact-info h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;;
+}
+
+.contact-info input{
+    width: 300px;
+    height: 45px;
+    border: none;
+    font-size: 20px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.contact-info fieldset {
+    border-radius: 6px;
+}
+.contact-info legend{
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(39, 38, 38, 0.712); 
+}
+
+.contact-info p{
+    margin: 4px 0px 20px 10px;
+    color: rgba(39, 38, 38, 0.712);
+    font-size:14px ;
+}
+
+#info-submit-button input{
+    position: absolute;
+    right: 28px;
+    width: 66px;
+    height: 36px;
+    border-radius: 4px;
+    padding-right: 8px;
+    background-color: #90B27A;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+/* the style for contact info page end */
+
+
+/* start questions page */
+.questions-header{
+    width: 375px;
+    height: 50px;
+    margin: 40px 0 10px;
+    border-radius: 2px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.questions-header ol{
+    counter-reset: li;
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.questions-header li{
+    position: relative;   
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+}
+.questions-header li:last-child{
+    color: rgba(0, 0, 0, 0.38);
+}
+.questions-header li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: #90B27A;
+    border-radius: 50%;
+    position: absolute;      
+    
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-header li:last-child::before{
+    background-color: rgba(0, 0, 0, 0.38);
+}
+.questions-header li:first-child span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 72px;
+}
+.questions-header li:nth-child(2) span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 111px;
+}   
+.questions-title{
+    width: 286px;
+    height: 35px;
+    margin: 20px 15px 15px ;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+}
+.questions-container li{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 28px 30px;
+}
+.questions-container option{
+    width: 230px;
+    height: 40px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    color: #333333;
+}
+.questions-container select {
+    margin: 20px 0 0 6px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.questions-container option:first-child{
+    display:inline-flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 5.25);
+}
+.questions-container form{
+    width: 230px;
+    margin: 20px 0 0 6px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.16px;
+    color: #333333;
+}
+.questions-container input{
+    margin: 12px 20px 0;
+}
+.questions-buttons{
+    display: flex;
+    justify-content: flex-end;
+    height: 75px;
+}
+#back-button{
+    width: 66px;
+    height: 36px;
+    border: 2px solid #90B27B;
+    background-color: #FFFFFF; 
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.16px;   
+}
+#next-button{
+    width: 66px;
+    height: 36px;
+    background-color: #90B27B;
+    border: 2px solid #90B27B;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.16px;
+    color: #FFFFFF;
+    margin: 0px 40px 0 20px;    
+}
+/* end questions page */
+
+
+/* the style for calender page start */
+.calender{
+    width: 375px;
+    height: 667px;
+    font-family: 'Quicksand', sans-serif;
+}
+.calender-header{
+    margin:0px 10% 20px 18px;
+    padding-top: 45px;
+}
+
+.calender-img{
+    position: relative;
+    height:260px;
+    margin:15px 10% 50px 2%;
+
+}
+
+.calender-img img{
+    width:330px;
+    margin-left: 10px;
+}
+.calender-time{
+    position: absolute;
+    font-size: 13px;
+    color: white;
+    top: 58%;
+    left: 49%;
+    background-color:#90B27A ;
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-left: 5.5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.calender-time2{
+    position: absolute;
+    font-size: 14px;
+    top: 39%;
+    left: 49%;
+    background-color: #cdd5db; 
+    color: rgba(0, 0, 0, 0.548); 
+    border-radius: 50%;
+    padding-top: 2px;
+    padding-left: 5.5px;
+    width: 20px;
+    height: 20px;
+}
+.calender-time3{
+    position: absolute;
+    font-size: 14px;
+    top: 39%;
+    left: 34%;
+    background-color: #cdd5db; 
+    color: rgba(0, 0, 0, 0.548); 
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-left: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.calender-button{
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:center;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.calender-button input {
+    width: 70px;
+    height: 45px;
+    margin :11px;
+    font-size: 16px;
+    border-radius: 12px;
+    border-color:white ;
+    border:none;
+    outline: none;
+}
+#ten {
+    background-color: #c4d0d9c5;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#twelve {
+    background-color: #90B27A;
+    color: white;
+}
+
+#two {
+    background-color: #c4d0d948;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#four {
+    background-color: #c4d0d9c5; 
+    color: rgba(0, 0, 0, 0.575);
+}
+
+#book {
+    background-color: #90B27A;
+    color: white;
+    border-radius: 4px;
+    width: 106px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+/* calender end */
+
+/* book start */
+.book-header{
+    width: 375px;
+    height: 50px;
+    margin: 40px 0 10px;
+    border-radius: 2px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.book-header ol{
+    counter-reset: li;
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+}
+.book-header li{
+    position: relative;
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+}
+.book-header li::before{
+    content: counter(li);
+    counter-increment: li;
+    height: 24px;
+    width: 24px;
+    background-color: #90B27A;
+    border-radius: 50%;
+    position: absolute;
+    left: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.0230769px;
+    color: rgba(255, 255, 255, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-header li:first-child span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 72px;
+}
+.book-header li:nth-child(2) span{
+    position: absolute;
+    width: 38px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    left: 111px;
+}
+.head-self{
+width: 286px;
+height: 35px;
+font-family: 'Quicksand';
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 15px;
+}
+.book-question{
+    font-family: 'Quicksand';
+    font-size: 14px;
+}
+.book-question a{
+    color: #333333;
+
+}
+.self-dec{
+    margin-left: 23px; 
+    margin-top: 18.2px; 
+}
+.radio-yes-no{
+    margin-left: 30px;  
+    margin-top: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.book-buttons{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Quicksand';
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+
+
+
+/* Successful */
+
+.Like img{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 93px;
+    left: 155px;
+ 
+ }
+ 
+
+ .boxP{
+ position: absolute;
+ width: 291px;
+ height: 109px;
+ left: 45px;
+ top: 176px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ }
+ 
+ .boxP p:first-child{
+ 
+ text-align: center;
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 24px;
+ text-align: center;
+ color: #000000;
+ margin-bottom: 15px;
+ }
+
+
+ .boxP p:last-child{
+    text-align: center;
+    font-family: "Quicksand";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #000000
+ }
+
+
+
+
+ 
+ 
+ 
+ .Title h2{
+ position: absolute;
+ width: 275px;
+ height: 51px;
+ left: 47px;
+ top: 323px;
+ font-family: "Quicksand";
+ font-style:normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 30px;
+ display: flex;
+ align-items: center;
+ color: #000000;
+
+ }
+ 
+ 
+ .timeMachin p{
+     position: absolute;
+ width: 239px;
+ height: 24px;
+ left: 141px;
+ top: 383px;
+ 
+ font-family: Quicksand;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 17px;
+ display: flex;
+ align-items: center;
+ 
+ color: #000000;
+ }
+ 
+ 
+ .Map p {
+ position: absolute;
+ width: 218px;
+ height: 33px;
+ left: 98px;
+ top: 418px;
+ 
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 16px;
+ /* or 114% */
+ 
+ display: flex;
+ align-items: center;
+ letter-spacing: 0.4px;
+ 
+ color: #000000;
+ }
+ 
+ 
+ .calendar p {
+     position: absolute;
+ width: 275px;
+ height: 38px;
+ left: 93px;
+ top: 449px;
+ 
+ font-family: "Quicksand";
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 20px;
+ display: flex;
+ align-items: center;
+ 
+ color: #000000;
+ }
+
+
+ .calendar i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 58px;
+    top: 464px;
+ }
+
+ .timeMachin i{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 106px;
+    top: 387px;
+ }
+
+ .Map i{
+position: absolute;
+width: 24px;
+height: 24px;
+left: 63px;
+top: 425px;
+
+ }
